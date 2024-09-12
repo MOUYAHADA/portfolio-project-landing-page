@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Tours - Landing Page</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <!-- Frontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+
+    <!-- Intro Section -->
+    <header class="bg-cover bg-center h-screen text-white" style="background-image: url('https://images.unsplash.com/photo-1537177278121-faeab2f78c14?q=80&w=1890&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+        <div class="flex items-center justify-center h-full bg-black bg-opacity-70">
+            <div class="text-center">
+                <h1 class="text-5xl font-bold mb-4">Mini Tours</h1>
+                <p class="text-xl mb-8">Explore the world with personalized mini tours tailored just for you.</p>
+                <nav class="mb-6">
+                    <a href="#features" class="text-lg text-yellow-600 hover:underline mx-4">Features</a>
+                    <a href="#about" class="text-lg text-yellow-600 hover:underline mx-4">About</a>
+                    <a href="#contact" class="text-lg text-yellow-600 hover:underline mx-4">Contact</a>
+                </nav>
+                <a href="http://minitours.pythonanywhere.com" class="bg-yellow-600 text-gray-800 py-2 px-6 rounded-full text-lg font-semibold hover:bg-yellow-500">Visit Deployed Project</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Feature Section -->
+    <section id="features" class="py-16">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-12">Key Features</h2>
+            <div class="flex flex-wrap -mx-4">
+                <!-- Feature 1 -->
+                <div class="w-full md:w-1/3 px-4 mb-8">
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <div class="w-full py-12 text-yellow-600">
+                            <i class="fa fa-search text-8xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-semibold mb-2">Comprehensive Mini Tour Search</h3>
+                        <p>Easily find mini tours based on your interests with our robust search feature.</p>
+                    </div>
+                </div>
+                <!-- Feature 2 -->
+                <div class="w-full md:w-1/3 px-4 mb-8">
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <div class="w-full py-12 text-yellow-600">
+                            <i class="fa fa-calendar text-8xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-semibold mb-2">Seamless Booking Experience</h3>
+                        <p>Book your desired mini tour effortlessly with our user-friendly booking system.</p>
+                    </div>
+                </div>
+                <!-- Feature 3 -->
+                <div class="w-full md:w-1/3 px-4 mb-8">
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <div class="w-full py-12 text-yellow-600">
+                            <i class="fa fa-compass text-8xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-semibold mb-2">Detailed Destination Information</h3>
+                        <p>Get in-depth information about each destination to plan your mini tour better.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-gray-200 py-16">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-8">About the Project</h2>
+            <p class="text-lg mb-8">Inspired by my love for travel and exploring new cultures, I wanted to create a platform that makes discovering and booking mini tours easy and enjoyable.</p>
+            <p class="text-lg mb-8">This project is a Portfolio Project for Holberton School. You can find more details and the code on <a href="https://github.com/your-repo" class="text-yellow-600 hover:underline">GitHub</a>.</p>
+            <p class="text-lg text-gray-500">Follow me
+                <div class="flex justify-center gap-4 items-center max-w-xs mx-auto mt-3">
+                    <a href="https://linkedin.com/in/mmouyahada" class="text-blue-500 hover:underline bg-gray-50 rounded-full px-3 py-2"><i class="fab fa-linkedin text-lg"></i> </a>
+                    <a href="https://github.com/MOUYAHADA" class="text-gray-600 hover:underline bg-gray-50 rounded-full px-3 py-2"><i class="fab fa-github text-lg"></i> </a>
+                    <a href="https://twitter.com/mouyahada" class="text-cyan-400 hover:underline bg-gray-50 rounded-full px-3 py-2"><i class="fab fa-twitter text-lg"></i> </a>
+                </div>
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-8">Contact</h2>
+            <p class="text-lg mb-4">Feel free to reach out if you have any questions or feedback!</p>
+            <p class="text-lg mb-4">Email: <a href="mailto:contact@minitours.com" class="text-yellow-600 hover:underline">contact@minitours.com</a></p>
+            <p class="text-lg mb-4">Phone: <a href="tel:+1234567890" class="text-yellow-600 hover:underline">+1 (000) 000-890</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-4 text-center">
+        <p>&copy; <script>document.write(new Date().getFullYear());</script> Mini Tours. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
